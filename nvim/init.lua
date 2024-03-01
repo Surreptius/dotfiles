@@ -17,6 +17,7 @@ spec "frog.whichkey"
 spec "frog.comment"
 spec "frog.harpoon"
 spec "frog.gitsigns"
+spec "frog.indentline"
 
 -- Visual
 spec "frog.colorschemes/everforest"
