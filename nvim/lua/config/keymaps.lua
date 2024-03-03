@@ -15,7 +15,7 @@ keymap("n", "<s-tab>", ":tabprev<CR>", opts)
 
 -- Split
 keymap("n", "ss", ":split<CR>", opts)
-keymap("n", "ss", ":vsplit<CR>", opts)
+keymap("n", "vs", ":vsplit<CR>", opts)
 -- Move window
 keymap("n", "<m-h>", "<C-w>h", opts)
 keymap("n", "<m-j>", "<C-w>j", opts)
