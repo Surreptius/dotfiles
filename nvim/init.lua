@@ -18,6 +18,7 @@ spec "frog.comment"
 spec "frog.harpoon"
 spec "frog.gitsigns"
 spec "frog.indentline"
+spec "frog.lazygit"
 
 -- Visual
 spec "frog.colorschemes/everforest"
