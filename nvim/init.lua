@@ -32,6 +32,7 @@ spec "frog.barbecue"
 -- Extra
 -- spec "frog.extras.tabby"
 spec "frog.extras.neoscroll"
+spec "frog.extras.trouble"
 
 -- Lazy
 require "frog.lazy"
