@@ -5,8 +5,12 @@
 local keymap = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
+-- Leader
+vim.g.mapleader = " "
+vim.g.maplocalleader = "-"
+
 -- Delete a word backwards
--- keymap("n", "dw", "vb_d")
+keymap("n", "cw", "ciw")
 
 -- New tab
 keymap("n", "te", ":tabedit", opts)
