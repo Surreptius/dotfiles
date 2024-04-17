@@ -6,3 +6,6 @@ lazy-lock.json
 .zcompdump
 .zsh_history
 .zsh_sessions/
+
+# Raycast
+raycast/
