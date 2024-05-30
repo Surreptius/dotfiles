@@ -6,3 +6,6 @@ alias lt="eza --color=always --group-directories-first -aT"
 # ---
 alias vim=nvim
 alias c="clear"
+# ---
+alias py="pyhton3"
+alias pysource="source .venv/bin/activate"
