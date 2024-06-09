@@ -7,5 +7,7 @@ alias lt="eza --color=always --group-directories-first -aT"
 alias vim=nvim
 alias c="clear"
 # ---
+alias lg=lazygit
+# ---
 alias py="python3"
 alias pysource="source .venv/bin/activate"
