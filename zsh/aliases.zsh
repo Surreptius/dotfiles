@@ -8,6 +8,7 @@ alias vim=nvim
 alias c="clear"
 # ---
 alias lg=lazygit
+alias ss=sesh_start
 # ---
 alias py="python3"
 alias pysource="source .venv/bin/activate"
