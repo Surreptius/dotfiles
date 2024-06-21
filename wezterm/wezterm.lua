@@ -6,9 +6,9 @@ return {
 	-- Earthsong, Grey-green, GruvboxDark, niji, SeaShells, Spacedust, terafox, Twilight
 	color_scheme = "Everforest Dark (Medium)",
 
-	font = wezterm.font("JetBrains Mono"),
+	font = wezterm.font("ComicShannsMono Nerd Font"),
 	harfbuzz_features = { "calt=1", "clig=1", "liga=1" },
-	font_size = 12.0,
+	font_size = 14.0,
 
 	enable_tab_bar = false,
 
