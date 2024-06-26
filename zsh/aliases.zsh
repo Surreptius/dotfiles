@@ -6,6 +6,7 @@ alias lt="eza --color=always --group-directories-first -aT"
 # ---
 alias vim=nvim
 alias c="clear"
+alias v="vim ."
 # ---
 alias lg=lazygit
 alias ss=sesh_start
