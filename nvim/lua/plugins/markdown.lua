@@ -5,9 +5,10 @@ return {
     require('render-markdown').setup({
       render_modes = { "n", "c" },
       headings = { '# ', '## ', '### ', '#### ', '##### ', '######' },
+      bullets = { '•', '◦', '▪', '▫' },
       callout = {
         note = '󰋽 Note',
-        tip = '󰇂  :',
+        tip = 'Def: ',
         important = '󰅾 Important',
         warning = '󰀪 Warning',
         caution = '󰳦 Caution',
