@@ -6,6 +6,7 @@ lazy-lock.json
 .zcompdump
 .zsh_history
 .zsh_sessions/
+zsh/.p10k.zsh
 
 # Raycast
 raycast/
@@ -15,3 +16,7 @@ lazygit/
 
 # tmux
 tmux/plugins/
+
+# Nvim Spelling
+nvim/spell
+nvim/lazyvim.json
