@@ -8,15 +8,17 @@ lazy-lock.json
 .zsh_sessions/
 zsh/.p10k.zsh
 
-# Raycast
-raycast/
-
-# Lazygit
-lazygit/
-
 # tmux
 tmux/plugins/
 
 # Nvim Spelling
 nvim/spell
 nvim/lazyvim.json
+
+# Bin Stuff
+raycast/
+lazygit/
+composer/
+conda/
+vale/
+matplotlib/
