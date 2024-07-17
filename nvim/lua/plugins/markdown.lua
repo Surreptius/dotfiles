@@ -1,17 +1,14 @@
 return {
-  'MeanderingProgrammer/markdown.nvim',
-  dependencies = { 'nvim-treesitter/nvim-treesitter' },
+  "MeanderingProgrammer/markdown.nvim",
+  as = "render-markdown",
+  dependencies = { "nvim-treesitter/nvim-treesitter" },
   config = function()
-    require('render-markdown').setup({
-      render_modes = { "n", "c" },
-      headings = { '# ', '## ', '### ', '#### ', '##### ', '######' },
-      bullets = { '•', '◦', '▪', '▫' },
-      callout = {
-        note = '󰋽 Note',
-        tip = 'Def: ',
-        important = '󰅾 Important',
-        warning = '󰀪 Warning',
-        caution = '󰳦 Caution',
+    require("render-markdown").setup({
+      heading = {
+        icons = { "# ", "## ", "### ", "#### ", "##### ", "######" },
+      },
+      bullet = {
+        icons = { "•", "◦", "▪", "▫" },
       },
     })
   end,
