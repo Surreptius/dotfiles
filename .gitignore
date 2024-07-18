@@ -6,7 +6,6 @@ lazy-lock.json
 .zcompdump
 .zsh_history
 .zsh_sessions/
-zsh/.p10k.zsh
 
 # tmux
 tmux/plugins/
@@ -19,6 +18,5 @@ nvim/lazyvim.json
 raycast/
 lazygit/
 composer/
-conda/
 vale/
 matplotlib/
