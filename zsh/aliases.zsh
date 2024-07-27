@@ -14,5 +14,4 @@ alias ss=sesh_start
 alias idea="idea64.exe"
 alias charm="pycharm64.exe"
 # ---
-alias py="python3"
-alias pysource="source .venv/bin/activate"
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
