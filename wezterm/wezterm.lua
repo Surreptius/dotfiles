@@ -26,7 +26,10 @@ config.animation_fps = 60
 config.cursor_blink_rate = 250
 
 -- Colors
-config.color_scheme = "One Dark (Gogh)"
+local scheme = wezterm.get_builtin_color_schemes()["One Dark (Gogh)"]
+scheme.foreground = "#abb2bf"
+config.colors = scheme
+
 config.force_reverse_video_cursor = true
 
 -- Shell
