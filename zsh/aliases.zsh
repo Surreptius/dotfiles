@@ -13,5 +13,6 @@ alias ss=sesh_start
 # ---
 alias idea="idea64.exe"
 alias charm="pycharm64.exe"
+alias storm="phpstorm.exe"
 # ---
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
