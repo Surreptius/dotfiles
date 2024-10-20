@@ -1,11 +1,14 @@
-return {
+local M = {
   "nvim-neo-tree/neo-tree.nvim",
-  opts = {
-    window = {
-      position = "right",
-    },
-    filesystem = {
-      hijack_netrw_behavior = "open_current",
-    },
+}
+
+M.opts = {
+  window = {
+    position = "right",
+  },
+  filesystem = {
+    hijack_netrw_behavior = "open_current",
   },
 }
+
+return M
