@@ -22,6 +22,9 @@ M.opts = {
     "php-cs-fixer",
     -- Lua
     "stylua",
+    -- Markdown,
+    "markdownlint-cli2",
+    "markdown-toc",
     -- Prettier
     "prettierd",
     -- Shell

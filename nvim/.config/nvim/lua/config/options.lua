@@ -27,7 +27,8 @@ opt.spelllang = { "en", "de" }
 opt.spell = false
 
 -- Set tab width
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
 opt.autoindent = true
 opt.expandtab = true

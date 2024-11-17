@@ -1,22 +1,11 @@
-# Misc
-.DS_STORE
-lazy-lock.json
-
 # ZSH
 .zcompdump
 .zsh_history
 .zsh_sessions/
 
 # tmux
-tmux/plugins/
+*/tmux/plugins/
 
 # Nvim Spelling
-nvim/spell
-nvim/lazyvim.json
-
-# Bin Stuff
-raycast/
-lazygit/
-composer/
-vale/
-matplotlib/
+*/nvim/spell
+*/nvim/lazyvim.json

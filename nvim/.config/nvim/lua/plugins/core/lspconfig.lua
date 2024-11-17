@@ -6,6 +6,10 @@ local M = {
   },
 }
 
-M.opts = {}
+M.opts = {
+  servers = {
+    marksman = {},
+  },
+}
 
 return M
