@@ -47,4 +47,7 @@ config.keys = {
 	{ key = "v", mods = "CTRL", action = wezterm.action({ PasteFrom = "Clipboard" }) },
 }
 
+-- Misc
+config.audible_bell = "Disabled"
+
 return config
