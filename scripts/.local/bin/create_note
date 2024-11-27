@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ "$1" == "daily" ]]; then
+    TIMESTAMP=$(date +"%Y%m%d")
+    TITLE="JOURNAL"
+else
+    TIMESTAMP=$(date +"%Y%m%d%H%M%S")
+    TITLE="$1"
+    TITLE="${TITLE// /_}"
+fi
+
+FILENAME="${TIMESTAMP}-${TITLE}.md"
+
+cd $HOME/Notes/"00 - Inbox" || exit
+vim "$FILENAME"
