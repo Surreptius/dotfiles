@@ -8,6 +8,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 export NOTES=$HOME/Notes
+export NOTESINBOX=$HOME/Notes/"02 - Piekser"/
 
 # Completions (?)
 ## Rust

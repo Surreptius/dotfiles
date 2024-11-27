@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 if [[ "$1" == "daily" ]]; then
     TIMESTAMP=$(date +"%Y%m%d")
@@ -11,5 +11,5 @@ fi
 
 FILENAME="${TIMESTAMP}-${TITLE}.md"
 
-cd $HOME/Notes/"00 - Inbox" || exit
+cd $NOTESINBOX || exit
 vim "$FILENAME"
