@@ -4,6 +4,10 @@ path+=("$HOME/.bun/bin")
 path+=("$HOME/.cargo/bin")
 path+=("$HOME/.local/bin")
 
+export EDITOR=nvim
+export VISUAL=nvim
+
+export NOTES=$HOME/Notes
 
 # Completions (?)
 ## Rust
