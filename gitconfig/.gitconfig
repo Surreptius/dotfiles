@@ -1,0 +1,7 @@
+[user]
+	email = paul-ole.lang@smail.th-koeln.de
+	name = Paul-Ole Lang
+[core]
+    editor=nvim
+[init]
+	defaultBranch = main
