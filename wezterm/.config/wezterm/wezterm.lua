@@ -1,5 +1,6 @@
 -- Initialize Configuration
 local wezterm = require("wezterm")
+local os = wezterm.target_triple
 local config = wezterm.config_builder()
 local opacity = 0.88
 -- local transparent_bg = "rgba(22, 24, 26, " .. opacity .. ")"
@@ -7,7 +8,7 @@ local opacity = 0.88
 -- Font
 config.font = wezterm.font_with_fallback({
 	{
-		family = "Cascadia Code NF",
+		family = "CaskaydiaCove Nerd Font",
 		weight = "Regular",
 	},
 	"Segoe UI Emoji",
@@ -33,7 +34,9 @@ config.colors = scheme
 config.force_reverse_video_cursor = true
 
 -- Shell
-config.default_domain = "WSL:Arch"
+if os:find("windows") then
+	config.default_domain = "WSL:Arch"
+end
 
 -- Tabs
 config.enable_tab_bar = true
