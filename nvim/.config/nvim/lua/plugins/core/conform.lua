@@ -19,6 +19,7 @@ M.opts = {
         lua = { "stylua" },
         c = { "clang-format" },
         cpp = { "clang-format" },
+        json = { "prettierd" },
     },
 }
 
