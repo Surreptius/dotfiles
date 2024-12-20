@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+if [ -z "$1" ]; then
+    echo  "Error: Please provide a name"
+    exit 1
+fi
+
+fileName=$(echo "$1" | tr " " "_")
+formattedFileName=$(date "+%Y%m%d")-${fileName}.md
+
+cd $NOTESINBOX || exit
+touch "${formattedFileName}"
+nvim "${formattedFileName}"
