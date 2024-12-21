@@ -20,6 +20,7 @@ M.opts = {
         c = { "clang-format" },
         cpp = { "clang-format" },
         json = { "prettierd" },
+        markdown = { "prettierd" },
     },
 }
 

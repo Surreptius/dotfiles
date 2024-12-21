@@ -1,15 +1,13 @@
 local M = {
-  "neovim/nvim-lspconfig",
-  dependencies = {
-    "mason.nvim",
-    { "williamboman/mason-lspconfig.nvim", config = function() end },
-  },
+    "neovim/nvim-lspconfig",
+    dependencies = {
+        "mason.nvim",
+        { "williamboman/mason-lspconfig.nvim", config = function() end },
+    },
 }
 
 M.opts = {
-  servers = {
-    marksman = {},
-  },
+    servers = {},
 }
 
 return M

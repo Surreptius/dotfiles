@@ -25,7 +25,6 @@ M.opts = {
         -- Markdown,
         "markdownlint-cli2",
         "markdown-toc",
-        "marksman",
         -- Prettier
         "prettierd",
         -- Shell
